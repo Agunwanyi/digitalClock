@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+body{
+    font-family:'Poppins', sans-serif;
+    background: conic-gradient(from 90deg at 40% -25%, #ffd700, #f79d03, #ee6907, #e6390a, #de0d0d, #d61039, #cf1261, #c71585, #cf1261, #d61039, #de0d0d, #ee6907, #f79d03, #ffd700, #ffd700, #ffd700);
+
+}
+.container{
+    /* border: 1px solid black; */
+    width: 95%;
+    height: 98vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.digitalClock{
+    /* border: 1px solid black; */
+    width: fit-content;
+    margin: auto;
+    padding: 1rem;
+    border-radius: 2px;
+    background-color: #0000003f;
+    color: #ffffff;
+}
+.digitalClock h1{
+    display: inline-block;
+    margin: 0 1rem;
+    font-weight: 5ren;
+    font-size: 5rem;
+}
+@media (max-width:768px) {
+    #space1,#space2{
+        display: none;
+    }
+    .digitalClock h1{
+        display: block;
+        font-size: 2rem;
+    }
+    .digitalClock{
+        text-align: center;
+        width: 100%;
+    }
+}
